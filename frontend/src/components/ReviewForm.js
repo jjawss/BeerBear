@@ -89,6 +89,7 @@ export function ReviewForm() {
             content="Add Review"
             labelPosition="left"
             icon="edit"
+            style={{ marginBottom: "25px" }}
             primary
           />
         </Form>
