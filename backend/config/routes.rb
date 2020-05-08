@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-
   get('/data',{to: 'beers#data'} )
   get('/profile',{to: 'users#current_user'})
   get('/beer/:id', {to:'beers#show'})

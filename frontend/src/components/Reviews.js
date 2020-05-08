@@ -102,7 +102,9 @@ export function Reviews(props) {
                     <Comment.Author as="a">
                       {review.user.username}
                     </Comment.Author>
-                    <Comment.Text>{review.content}</Comment.Text>
+                    <Comment.Text>
+                      <p>{review.content}</p>
+                    </Comment.Text>
                     <Comment.Metadata>
                       {starScore(review.score)}
                       {review.score}

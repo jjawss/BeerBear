@@ -179,7 +179,6 @@ DEPENDENCIES
   rest-client
   spring
   spring-watcher-listen (~> 2.0.0)
-  sprockets (~> 3.0)
   sqlite3 (~> 1.4)
   tzinfo-data
 

@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Comment, Form, Header, Dropdown } from "semantic-ui-react";
+import {
+  Button,
+  Comment,
+  Form,
+  Header,
+  Dropdown,
+  TextArea
+} from "semantic-ui-react";
 import { DropDownSelection } from "./DropDownSelection.js";
 
 export function ReviewForm() {

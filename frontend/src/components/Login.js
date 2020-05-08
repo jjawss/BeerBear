@@ -100,7 +100,11 @@ export function Login(props) {
           >
             Password
           </label>
-          <Input value={state.password} type="text" onChange={updatePassword} />
+          <Input
+            type="password"
+            value={state.password}
+            onChange={updatePassword}
+          />
           {passwordVerification ? null : <p style={{ color: "red" }}>TEST</p>}
         </div>
         {/* <Link to={"/beerlist"}> */}
